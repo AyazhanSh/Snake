@@ -56,7 +56,7 @@ function drawGame(){
         ctx.fillRect(snake[i].x, snake[i].y, box, box);
     };
 
-    ctx.fillStyle = "red";
+    ctx.fillStyle = "green";
     ctx.font = "20px Arial";
     ctx.fillText(score,  box, box);
 
